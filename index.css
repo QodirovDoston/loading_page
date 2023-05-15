@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.loading-text {
+  font-size: 80px;
+  color: rgb(25, 0, 251);
+  /* background-color: rgb(219, 245, 241); */
+}
+  
+  .background {
+    padding: 20px auto;
+    background: url('https://img1.akspic.ru/previews/9/6/8/0/90869/90869-srednevekove-fasad-art-illustracia-vizualnoe_iskusstvo-x750.jpg')
+      no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    fill: blue(0);
+  }
+  
